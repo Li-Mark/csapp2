@@ -1,8 +1,8 @@
 #include "csapp.h"
 #include "csapp.c"
 
-//  Result: f1 = 3, f2  = 3
-//  When Unix open a file, the kelno will return a positive number, called discriptor
+// Result: f1 = 3, f2  = 3
+// When Unix open a file, the kernel will return a positive number, called descriptor
 // 0 = STDIN_FILENO, 1=STDOUT_FILENO, 2=STDERR_FILENO
 // So if we open the file successfully, the Open should return 3
 // But when the file is not exist, there will throw an error 'undefined reference'
